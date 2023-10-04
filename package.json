@@ -1,0 +1,56 @@
+{
+  "name": "@joshuaavalon/fastify-plugin-storage",
+  "version": "1.0.0",
+  "description": "Storage plugin for fastify",
+  "module": "dist/index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "tsc",
+    "lint": "eslint src"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "homepage": "https://github.com/joshuaavalon/fastify-plugin-storage#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joshuaavalon/fastify-plugin-storage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joshuaavalon/fastify-plugin-storage/issues"
+  },
+  "keywords": [
+    "fastify",
+    "fastify-plugin"
+  ],
+  "files": [
+    "dist"
+  ],
+  "author": "Joshua Avalon",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/node": "20.8.2",
+    "@typescript-eslint/eslint-plugin": "6.7.4",
+    "@typescript-eslint/parser": "6.7.4",
+    "eslint": "8.50.0",
+    "eslint-config-prettier": "9.0.0",
+    "eslint-plugin-prettier": "5.0.0",
+    "globals": "13.22.0",
+    "rimraf": "5.0.5",
+    "typescript": "5.2.2"
+  },
+  "peerDependencies": {
+    "fastify": "^4.23.2"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.423.0",
+    "fastify-plugin": "^4.5.1"
+  }
+}

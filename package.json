@@ -51,6 +51,7 @@
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.454.0",
-    "fastify-plugin": "^4.5.1"
+    "fastify-plugin": "^4.5.1",
+    "sanitize-filename": "^1.6.3"
   }
 }

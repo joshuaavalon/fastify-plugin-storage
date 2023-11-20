@@ -1,6 +1,6 @@
 {
   "name": "@joshuaavalon/fastify-plugin-storage",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Storage plugin for fastify",
   "module": "dist/index.js",
   "type": "module",

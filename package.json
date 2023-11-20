@@ -36,21 +36,21 @@
   "author": "Joshua Avalon",
   "license": "Apache-2.0",
   "devDependencies": {
-    "@types/node": "20.8.2",
-    "@typescript-eslint/eslint-plugin": "6.7.4",
-    "@typescript-eslint/parser": "6.7.4",
-    "eslint": "8.50.0",
+    "@types/node": "20.9.2",
+    "@typescript-eslint/eslint-plugin": "6.11.0",
+    "@typescript-eslint/parser": "6.11.0",
+    "eslint": "8.54.0",
     "eslint-config-prettier": "9.0.0",
-    "eslint-plugin-prettier": "5.0.0",
-    "globals": "13.22.0",
+    "eslint-plugin-prettier": "5.0.1",
+    "globals": "13.23.0",
     "rimraf": "5.0.5",
     "typescript": "5.2.2"
   },
   "peerDependencies": {
-    "fastify": "^4.23.2"
+    "fastify": "^4.24.3"
   },
   "dependencies": {
-    "@aws-sdk/client-s3": "^3.423.0",
+    "@aws-sdk/client-s3": "^3.454.0",
     "fastify-plugin": "^4.5.1"
   }
 }
